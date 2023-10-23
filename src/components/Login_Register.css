@@ -1,0 +1,136 @@
+.login_model{
+    position: fixed ;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: -2vh;
+    
+    background: rgba(22, 21, 21, 0.5); 
+    
+}
+.login_container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 430px;
+    width: 100%;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  }
+  
+  .form span{
+    font-size: 3vh;
+    color: black;
+  }
+  .form input{
+    color: black;
+    font-weight: 600;
+    font-family: monospace;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  }
+  #form_Submit{
+    color: white;
+    font-weight: 600;
+    font-family: monospace;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  }
+  .login_container .registration{
+    display: none;
+  }
+  #check:checked ~ .registration{
+    display: block;
+   
+  }
+  #check:checked ~ .login{
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  .login_container .form{
+    padding: 2rem;
+  }
+  .form header{
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+   .form input{
+     height: 60px;
+     width: 100%;
+     padding: 0 15px;
+     font-size: 17px;
+     margin-bottom: 1.3rem;
+     border: 1px solid #ddd;
+     border-radius: 6px;
+     outline: none;
+   }
+   #form_Submit{
+    height: 60px;
+     width: 100%;
+     padding: 0 15px;
+     font-size: 22px;
+     margin-bottom: 1.3rem;
+     border: 1px solid #ddd;
+     border-radius: 6px;
+     outline: none;
+     font-size: 16px;
+    letter-spacing: 2px;
+    
+    background-color: #009579;
+    
+   }
+   #form_Submit span{
+    color: #fff;
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 25px;
+    letter-spacing: 2px;
+   }
+   #form_Submit:hover{
+    transition: 0.5s;
+    background: #006653;
+   }
+   .form input:focus{
+     box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+   }
+  .form a{
+    font-size: 16px;
+    color: #009579;
+    text-decoration: none;
+  }
+  .form a:hover{
+    text-decoration: underline;
+  }
+  .form input.button{
+    color: #fff;
+    background: #009579;
+    font-size: 2.2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 1.7rem;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+
+  .form input.button:hover{
+    background: #006653;
+  }
+  .signup{
+    font-size: 17px;
+    text-align: center;
+  }
+  .signup label{
+    color: #009579;
+    cursor: pointer;
+  }
+  .signup label:hover{
+    text-decoration: underline;
+  }
+  
+ 
