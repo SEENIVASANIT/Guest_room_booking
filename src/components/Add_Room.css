@@ -1,0 +1,23 @@
+.Add_Room_Form_Container{
+    position: absolute;
+    top: 50%;    
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 200vh;
+    width: 100%;
+    padding: 30px;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    
+}
+@media  (max-width:940px) {
+    .Add_Room_Form_Container{
+        padding: 0px;
+        height: 90vh;
+        overflow-y: scroll;
+        padding: 10px;
+    width: 70vh;
+    }
+    
+}
