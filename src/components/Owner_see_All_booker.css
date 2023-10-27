@@ -1,0 +1,97 @@
+.all_booker_con{
+    position: absolute;
+    top: 50%;    
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 200vh;
+    width: 100%;
+    height: 90%;
+    padding: 30px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    
+}
+.con_for_booker{
+    width: 99%;
+    height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: aqua;
+    justify-content: start;
+align-items:first baseline;
+            display:grid;
+         grid-template-columns: repeat(3,1fr);
+         grid-gap: 3rem;
+}
+.All_booker_manu_closs{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+   margin-top: 4vh;
+}
+@media screen  and (max-width:767px){
+    .all_booker_con{
+        position: absolute;
+        top: 50%;    
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 100vh;
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+        background: white;
+        display: flex;
+       justify-content: center;
+        border-radius: 7px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        
+    }
+    .con_for_booker{
+        width: 99%;
+        height: 90%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        
+        justify-content: start;
+        margin-left: 10vh;
+            align-items: last baseline;
+                display:grid;
+             grid-template-columns: repeat(1,1fr);
+             grid-gap: 3rem;
+    }
+}
+@media screen  and (min-width:767px) and (max-width:1023px){
+    .all_booker_con{
+        position: absolute;
+        top: 50%;    
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 100vh;
+        width: 94%;
+        height: 95%;
+        padding: 10px;
+        background: white;
+        display: flex;
+       justify-content: center;
+        border-radius: 7px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        
+    }
+    .con_for_booker{
+        width: 99%;
+        height: 90%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        
+        justify-content: start;
+        margin-left: 5vh;
+            align-items: last baseline;
+                display:grid;
+             grid-template-columns: repeat(2,1fr);
+             grid-gap: 3rem;
+    }   
+}
