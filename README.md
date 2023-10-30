@@ -4,6 +4,12 @@
 
 ![alt text](https://raw.githubusercontent.com/SEENIVASANIT/wd301/main/demo/Screenshot%202023-10-29%20155919.png) 
 
+## Technologies Used : 
+Front-End : Reactjs
+Back-End : Nodejs
+Database : Firebase
+Mail Automation : Emailjs
+Editor : VS Code
 
 ## About this website
 I am Seenivasan. I completed the project which you give me to complete. This website is a Guest Booking Website. Our website, Guest Booking Website, is your one-stop destination for hassle-free travel planning. We offer a diverse range of accommodations, from charming guest rooms to luxurious vacation rentals, ensuring that every traveler finds their ideal stay. With a user-friendly interface, you can easily browse, book, and manage your reservations. We prioritize your comfort and convenience, making travel dreams a reality with our curated listings and exceptional customer service. Join us and embark on memorable journeys with confidence and ease.
