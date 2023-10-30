@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ea6a36c.css",
+    "main.js": "/static/js/main.5329a84b.js",
+    "static/js/787.e4f3839d.chunk.js": "/static/js/787.e4f3839d.chunk.js",
+    "static/media/user1.jpg": "/static/media/user1.7107deb1b71e2d06dc44.jpg",
+    "static/media/user3.jpg": "/static/media/user3.4c73f067253f79458b90.jpg",
+    "static/media/home-bg.jpg": "/static/media/home-bg.bfafffe2f59daa2e5d9f.jpg",
+    "static/media/hotel.png": "/static/media/hotel.b109103b9ece3e9300de.png",
+    "static/media/user2.avif": "/static/media/user2.84a96c3988fc4fb25faf.avif",
+    "static/media/no_room_book.jpg": "/static/media/no_room_book.aeaefca9cce3745f99a3.jpg",
+    "static/media/admins.png": "/static/media/admins.45b2116569e9ce633660.png",
+    "static/media/nodata.avif": "/static/media/nodata.17f830b33da4a02b281f.avif",
+    "index.html": "/index.html",
+    "static/media/phone.svg": "/static/media/phone.af2ffe74e636736804c4a70f907b93cd.svg",
+    "static/media/instagram.svg": "/static/media/instagram.84129a71e306cbd7a37559fc64f24e77.svg",
+    "static/media/twitter.svg": "/static/media/twitter.ee33fe8543cfe0d0e222d575d6cf009e.svg",
+    "static/media/map-pin.svg": "/static/media/map-pin.0b39a6dec31ed59e32c8e61b4dd849c0.svg",
+    "static/media/mail.svg": "/static/media/mail.46bf2e141493f760780c6687f4c11370.svg",
+    "static/media/facebook.svg": "/static/media/facebook.5af5659b1d481d1457d7c877e70e7198.svg",
+    "main.6ea6a36c.css.map": "/static/css/main.6ea6a36c.css.map",
+    "main.5329a84b.js.map": "/static/js/main.5329a84b.js.map",
+    "787.e4f3839d.chunk.js.map": "/static/js/787.e4f3839d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ea6a36c.css",
+    "static/js/main.5329a84b.js"
+  ]
+}
