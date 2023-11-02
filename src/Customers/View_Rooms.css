@@ -1,0 +1,68 @@
+.display_all_room_user{
+    position: relative;
+    margin-top: -7vh;
+
+            justify-content: space-around;
+            margin-left: 3vh;
+                display:grid;
+             grid-template-columns: repeat(3,1fr);
+             gap: 2rem;
+             width: 100%;
+             
+                 }
+                 .rooms_hole_contain2{             
+                    position: relative;
+                    margin-top: 6em;
+                    
+                              }
+.no_home_add_user2 .no_data_img2 img{
+height: 18em;
+
+}
+.main_house_view_card{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+}
+.rooms_title_bar_user{
+    width: 100%;
+    display: flex;
+    
+    padding: 5em;
+    justify-content: center;
+   
+  }
+@media screen  and (max-width:767px){   
+    .rooms_hole_contain2{             
+        position: relative;
+        margin-top: -4em;
+        
+                  }
+.display_all_room_user{
+    position: relative;
+    top: 30vh;
+            justify-content: space-around;
+            margin-left: 9vh;
+           
+                display:grid;
+             grid-template-columns: repeat(1,1fr);
+             grid-gap: 2rem;
+             width: 100%;
+             
+                                     }
+                }
+                @media screen  and (min-width:767px) and (max-width:1023px){
+                    .display_all_room_user{
+                        position: relative;
+                        top: 30vh;
+                                justify-content: space-around;
+                                margin-left: 6vh;
+                                    display:grid;
+                                  
+                                 grid-template-columns: repeat(2,1fr);
+                                 grid-gap: rem;
+                                 width: 100%;
+                                 
+                                     }
+                                    }                

@@ -1,0 +1,65 @@
+.all_booker_con_customer{
+    position: absolute;
+    top: 48%;    
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 190vh;
+    width: 100%;
+    height: 90%;
+    padding: 30px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    
+}
+.viwe_for_customer_option{
+    position: relative;
+    width: 92%;
+    margin-left: 2em;
+    border-radius: 10px;
+    box-shadow: 0 1px 10px rgba(0,0,0,0.19), 0 1px 6px rgba(0,0,0,0.23);   
+  }
+.create_cape{
+    width: 100%;
+    height: 3em;
+}  
+  @media screen  and (min-width:767px) and (max-width:1023px){
+ 
+ .viwe_for_customer_option{
+  position: relative;
+         
+  width: 92%;
+ 
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgba(0,0,0,0.19), 0 1px 6px rgba(0,0,0,0.23);   
+}
+.all_booker_con_customer{
+   
+    width: 120vh;
+    
+    height: 90%;
+  
+
+    
+}
+}
+@media screen  and (max-width:767px){
+    .viwe_for_customer_option{
+        position: relative;
+   
+        width: 92%;
+       margin-left: 0;
+        border-radius: 10px;
+        box-shadow: 0 1px 10px rgba(0,0,0,0.19), 0 1px 6px rgba(0,0,0,0.23);   
+      }
+      .all_booker_con_customer{
+        
+        width: 70vh;
+       
+        height: 90%;
+                
+    }      
+}

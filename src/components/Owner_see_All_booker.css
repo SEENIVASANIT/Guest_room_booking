@@ -1,0 +1,152 @@
+.all_booker_con{
+    position: absolute;
+    top: 50%;    
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 175vh;
+    width: 100%;
+    height: 90%;
+    padding: 30px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    
+}
+.con_for_booker{
+    width: 99%;
+    height: 90%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+ display: flex;
+justify-content: center;
+}
+.display_all_roombook2{
+    width: 100%;
+    position: relative;
+  justify-content: space-around;
+      display:grid;
+      align-items: first baseline;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 3rem;
+   width: 100%;
+}
+.All_booker_manu_closs{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+   margin-top: 4vh;
+}
+.no_booker2 .no_data_img img{
+   height: 100%;
+   width: 100%;
+   margin-top: 2vh;
+}
+.no_booker_data_items{
+    width: 70%;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+.booking_cancal_bttn{
+    width: 39vh;
+    display: flex;
+    justify-content: space-around;
+    font-size: 8vh;
+    
+}
+#user_booking_show_bttn{
+    letter-spacing: 1.5px;
+    font-size: 1.5vh;
+}
+.no_home_add_user{
+    width: 100%;
+    height: 26em;
+   
+  }
+@media screen  and (max-width:767px){
+    .all_booker_con{
+        position: absolute;
+        top: 50%;    
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 100vh;
+        width: 90%;
+        height: 90%;
+        padding: 10px;
+        background: white;
+        display: flex;
+       justify-content: center;
+        border-radius: 7px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        
+    }
+    .con_for_booker{
+        width: 99%;
+        height: 90%;
+      
+    }
+    .no_booker_data_items{
+        width:100%;
+        display: flex;
+margin-left: -0vh;
+        height:100%;
+    }
+    .display_all_roombook2{
+        position: relative;
+      justify-content: center;
+          display:grid;
+margin-left: 4vh;
+          align-items: center;
+       grid-template-columns: repeat(1,1fr);
+       grid-gap: 1rem;
+       width: 100%;
+    }
+}
+@media screen  and (min-width:767px) and (max-width:1023px){
+    .all_booker_con{
+        position: absolute;
+        top: 50%;    
+        left: 50%;
+        transform: translate(-50%,-50%);
+        max-width: 100vh;
+        width: 94%;
+        height: 95%;
+        padding: 10px;
+        background: white;
+        display: flex;
+       justify-content: center;
+        border-radius: 7px;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        
+    }
+    .con_for_booker{
+        width: 99%;
+        height: 90%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        
+        
+    }   
+    .display_all_roombook2{
+        position: relative;
+      justify-content: center;
+          display:grid;
+margin-left: 4vh;
+          align-items: center;
+       grid-template-columns: repeat(2,1fr);
+       grid-gap: 1rem;
+       width: 100%;
+    }
+    .no_booker_data_items{
+        width:100%;
+        display: flex;
+margin-left: -0vh;
+        height:100%;
+    }
+}
