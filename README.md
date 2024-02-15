@@ -27,7 +27,7 @@ User and House owner able to signup in this page.
 
 ## Greeting Mail
 
-![alt text](https://raw.githubusercontent.com/SEENIVASANIT/wd301/main/demo/logo.svg)
+![alt text](https://raw.githubusercontent.com/SEENIVASANIT/wd301/main/demo/greeting.png)
 
 This is the auto generated mail which comes from Website side for greeting the user for joining..
 
